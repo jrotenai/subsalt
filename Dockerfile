@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-COPY *.html /usr/share/nginx/html/
+COPY subsalt-v2.html /usr/share/nginx/html/index.html
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
