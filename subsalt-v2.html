@@ -3,29 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subsalt V2 Landing Page</title>
+    <title>Subsalt Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="animations.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to Subsalt V2</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About</h2>
-            <p>This is the landing page for Subsalt v2, with improved features and performance.</p>
-        </section>
-        <section>
-            <h2>Features</h2>
+        <nav>
+            <h1>Subsalt</h1>
             <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#deployment">Deployment Options</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-    </main>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Welcome to Subsalt</h2>
+        <p>Your complete solution for ...</p>
+        <a href="#demo" class="cta-button">Get Started</a>
+    </section>
+    <section id="features">
+        <h3>Features</h3>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+    </section>
+    <section id="demo">
+        <h3>Live Demo</h3>
+        <p>Experience our application in action!</p>
+        <button onclick="openDemo()">Launch Demo</button>
+    </section>
+    <section id="metrics">
+        <h3>Metrics</h3>
+        <p>95% user satisfaction rate.</p>
+    </section>
+    <section id="deployment">
+        <h3>Deployment Options</h3>
+        <p>Available on various platforms.</p>
+    </section>
     <footer>
-        <p>&copy; 2026 Subsalt. All rights reserved.</p>
+        <p>&copy; 2026 Subsalt, Inc.</p>
     </footer>
 </body>
 </html>
